@@ -10,22 +10,22 @@ public class Test8 {
 	
 	
 	public static void main(String args[]){
-		int a1 = 1 << 0;
-		int a2 = 1 << 1;
-		int a3 = 1 << 2;
-		int a4 = 1 << 3;
-		
-		System.out.println(0 & a2); 
+		int a1 = 15 & 31;
 		
 		
-		System.out.println(Phase.Transition.from(Phase.SOLID, Phase.LIQUID));
-		
-		int[] digits = {1,2,3,4,5,6};
-		
-		System.out.println(Arrays.toString(digits));
 		
 		
-		Phase.apply(EnumSet.of(Phase.SOLID,Phase.GAS));
+		System.out.println(a1); 
+		
+		
+//		System.out.println(Phase.Transition.from(Phase.SOLID, Phase.LIQUID));
+//		
+//		int[] digits = {1,2,3,4,5,6};
+//		
+//		System.out.println(Arrays.toString(digits));
+//		
+//		
+//		Phase.apply(EnumSet.of(Phase.SOLID,Phase.GAS));
 		
 		
 	}
